@@ -1,10 +1,10 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/andes-hero.jpg";
+import heroImage from "@/assets/fitz-roy-hero.jpg";
 const HeroSection = () => {
   return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img src={heroImage} alt="Andes Mountains" className="w-full h-full object-cover" />
+        <img src={heroImage} alt="Fitz Roy at El Chalten" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-hero opacity-80"></div>
       </div>
       

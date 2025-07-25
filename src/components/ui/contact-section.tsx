@@ -33,6 +33,14 @@ const ContactSection = () => {
                   <MapPin className="w-6 h-6 text-accent" />
                   <span>Boston, United States</span>
                 </div>
+                <div className="flex items-center justify-center gap-4 text-gray-300">
+                  <MapPin className="w-6 h-6 text-accent" />
+                  <span>Santiago, Chile</span>
+                </div>
+                <div className="flex items-center justify-center gap-4 text-gray-300">
+                  <MapPin className="w-6 h-6 text-accent" />
+                  <span>Medellín, Colombia</span>
+                </div>
               </div>
               
               <Button size="lg" className="bg-accent hover:bg-accent/90 text-white px-8 py-4 text-lg shadow-glow hover:shadow-glow transition-all duration-300 hover:scale-105 animate-glow">
