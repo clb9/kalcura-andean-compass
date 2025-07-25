@@ -17,7 +17,7 @@ const HeroSection = () => {
           Providing small and middle market corporates in Latin America with{" "}
           <span className="text-accent font-medium">unbiased, high-quality strategic advice.</span>
         </p>
-        <p className="text-lg md:text-xl mb-12 animate-slide-up max-w-3xl mx-auto text-gray-200">Creative, objective solutions rooted in local knowledge and applied experience.</p>
+        <p className="text-lg md:text-xl mb-12 animate-slide-up max-w-3xl mx-auto text-gray-200">Creative and objective solutions rooted in local knowledge and applied experience.</p>
         <div className="animate-slide-up">
           <Button size="lg" className="bg-accent hover:bg-accent/90 text-white px-8 py-4 text-lg shadow-glow hover:shadow-glow transition-all duration-300 hover:scale-105">
             Schedule a Consultation
