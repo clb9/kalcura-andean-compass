@@ -31,7 +31,7 @@ const CompassSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Why Choose Kalcura
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">Clients rely on Kalcura for their most important, consequential business matters.</p>
+          
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">

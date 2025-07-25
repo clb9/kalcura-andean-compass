@@ -16,7 +16,7 @@ const ContactSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Ready to Get Started?
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">Schedule a call with Kalcura to review your business and learn how we can help your business achieve its goals</p>
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">Email Kalcura to schedule a review of your business and learn how we can help your business achieve its goals.</p>
         </div>
         
         <div className="max-w-4xl mx-auto">
@@ -24,7 +24,7 @@ const ContactSection = () => {
             <CardContent className="p-12 text-center">
               <div className="mb-8">
                 <Mail className="w-16 h-16 text-accent mx-auto mb-4" />
-                <h3 className="text-2xl font-bold mb-4">Contact Us</h3>
+                <h3 className="text-2xl font-bold mb-4 text-slate-50">Contact Us</h3>
                 <a href="mailto:info@kalcuramanagement.com" className="text-accent text-xl hover:text-white transition-colors duration-300 font-medium">info@kalcura.com</a>
               </div>
               
@@ -43,11 +43,9 @@ const ContactSection = () => {
                 </div>
               </div>
               
-              <Button size="lg" className="bg-accent hover:bg-accent/90 text-white px-8 py-4 text-lg shadow-glow hover:shadow-glow transition-all duration-300 hover:scale-105 animate-glow">
-                Schedule Your Consultation
-              </Button>
               
-              <p className="text-sm text-gray-400 mt-6">Let's discuss how we can help your business achieve its goals.</p>
+              
+              
             </CardContent>
           </Card>
         </div>
