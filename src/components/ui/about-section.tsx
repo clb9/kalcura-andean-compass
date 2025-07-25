@@ -16,11 +16,7 @@ const AboutSection = () => {
             <div className="flex flex-col md:flex-row items-center gap-8 mb-8">
               <div className="flex-shrink-0">
                 <Avatar className="w-32 h-32 md:w-40 md:h-40">
-                  <AvatarImage 
-                    src="/lovable-uploads/3811716f-4107-48f4-832a-e67ecfda995d.png" 
-                    alt="Christian Breda" 
-                    className="object-cover"
-                  />
+                  <AvatarImage src="/lovable-uploads/3811716f-4107-48f4-832a-e67ecfda995d.png" alt="Christian Breda" className="object-cover" />
                   <AvatarFallback className="text-2xl">CB</AvatarFallback>
                 </Avatar>
               </div>
@@ -29,12 +25,8 @@ const AboutSection = () => {
                 <h3 className="text-3xl font-bold text-primary mb-2">
                   Christian Breda
                 </h3>
-                <Badge className="bg-accent text-white px-4 py-2 text-lg">
-                  Founder and Managing Partner
-                </Badge>
-                <p className="text-muted-foreground mt-4 text-lg">
-                  Based in Boston
-                </p>
+                <Badge className="bg-accent text-white px-4 py-2 text-lg">Founder & Managing Partner</Badge>
+                <p className="text-muted-foreground mt-4 text-lg">Based in Boston</p>
               </div>
             </div>
             

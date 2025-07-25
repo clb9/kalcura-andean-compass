@@ -16,9 +16,7 @@ const ContactSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Ready to Get Started?
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Schedule a call with Kalcura Management to review your business and learn how we can help your business achieve its goals
-          </p>
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">Schedule a call with Kalcura to review your business and learn how we can help your business achieve its goals</p>
         </div>
         
         <div className="max-w-4xl mx-auto">
@@ -27,9 +25,7 @@ const ContactSection = () => {
               <div className="mb-8">
                 <Mail className="w-16 h-16 text-accent mx-auto mb-4" />
                 <h3 className="text-2xl font-bold mb-4">Contact Us</h3>
-                <a href="mailto:info@kalcuramanagement.com" className="text-accent text-xl hover:text-white transition-colors duration-300 font-medium">
-                  info@kalcuramanagement.com
-                </a>
+                <a href="mailto:info@kalcuramanagement.com" className="text-accent text-xl hover:text-white transition-colors duration-300 font-medium">info@kalcura.com</a>
               </div>
               
               <div className="space-y-6 mb-8">

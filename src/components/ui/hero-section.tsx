@@ -10,9 +10,7 @@ const HeroSection = () => {
       
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center text-white">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in leading-tight">
-          Kalcura Management
-        </h1>
+        <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in leading-tight">Kalcura Management</h1>
         <p className="text-xl md:text-2xl mb-8 animate-slide-up max-w-4xl mx-auto leading-relaxed font-light">
           Providing small and middle market corporates in Latin America with{" "}
           <span className="text-accent font-medium">unbiased, high-quality strategic advice.</span>
