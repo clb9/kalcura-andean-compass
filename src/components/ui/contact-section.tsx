@@ -1,16 +1,14 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Mail, MapPin, Phone } from "lucide-react";
-
 const ContactSection = () => {
-  return (
-    <section className="py-20 bg-gradient-hero text-white relative overflow-hidden">
+  return <section className="py-20 bg-gradient-hero text-white relative overflow-hidden">
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0" style={{
-          backgroundImage: `radial-gradient(circle at 2px 2px, rgba(255,255,255,0.3) 1px, transparent 0)`,
-          backgroundSize: '40px 40px'
-        }}></div>
+        backgroundImage: `radial-gradient(circle at 2px 2px, rgba(255,255,255,0.3) 1px, transparent 0)`,
+        backgroundSize: '40px 40px'
+      }}></div>
       </div>
       
       <div className="container mx-auto px-6 relative z-10">
@@ -29,10 +27,7 @@ const ContactSection = () => {
               <div className="mb-8">
                 <Mail className="w-16 h-16 text-accent mx-auto mb-4" />
                 <h3 className="text-2xl font-bold mb-4">Contact Us</h3>
-                <a 
-                  href="mailto:info@kalcuramanagement.com"
-                  className="text-accent text-xl hover:text-white transition-colors duration-300 font-medium"
-                >
+                <a href="mailto:info@kalcuramanagement.com" className="text-accent text-xl hover:text-white transition-colors duration-300 font-medium">
                   info@kalcuramanagement.com
                 </a>
               </div>
@@ -44,22 +39,15 @@ const ContactSection = () => {
                 </div>
               </div>
               
-              <Button 
-                size="lg"
-                className="bg-accent hover:bg-accent/90 text-white px-8 py-4 text-lg shadow-glow hover:shadow-glow transition-all duration-300 hover:scale-105 animate-glow"
-              >
+              <Button size="lg" className="bg-accent hover:bg-accent/90 text-white px-8 py-4 text-lg shadow-glow hover:shadow-glow transition-all duration-300 hover:scale-105 animate-glow">
                 Schedule Your Consultation
               </Button>
               
-              <p className="text-sm text-gray-400 mt-6">
-                Let's discuss how we can help your business achieve its goals
-              </p>
+              <p className="text-sm text-gray-400 mt-6">Let's discuss how we can help your business achieve its goals.</p>
             </CardContent>
           </Card>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default ContactSection;

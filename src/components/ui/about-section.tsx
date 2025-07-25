@@ -1,17 +1,13 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-
 const AboutSection = () => {
-  return (
-    <section className="py-20 bg-background">
+  return <section className="py-20 bg-background">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
             About Us
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Meet the experienced leadership behind Kalcura Management
-          </p>
+          
         </div>
         
         <Card className="max-w-4xl mx-auto bg-gradient-card shadow-elegant border-0 animate-fade-in">
@@ -52,8 +48,6 @@ const AboutSection = () => {
           </CardContent>
         </Card>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default AboutSection;
