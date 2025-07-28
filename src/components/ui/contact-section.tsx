@@ -16,7 +16,7 @@ const ContactSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Ready to Get Started?
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">Email Kalcura to schedule a review of your business and learn how we can help your business achieve its goals.</p>
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">Email info@kalcura.com to schedule a review of your business and learn how we can help your business achieve its goals.</p>
         </div>
         
         <div className="max-w-4xl mx-auto">
