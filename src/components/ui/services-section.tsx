@@ -17,7 +17,7 @@ const services = [{
   items: ["Due diligence", "Opportunity analysis"]
 }, {
   title: "Capital Structure",
-  items: ["Capital raising", "Optimize your balance sheet according to your business' needs"]
+  items: ["Capital raising", "Optimize your balance sheet according to your business' needs", "Fintech funding programs", "Cross-border structured finance"]
 }];
 const ServicesSection = () => {
   return <section className="py-20 bg-background">

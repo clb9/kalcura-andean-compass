@@ -1,14 +1,16 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Mail, MapPin, Phone } from "lucide-react";
+
 const ContactSection = () => {
-  return <section className="py-20 bg-gradient-hero text-white relative overflow-hidden">
+  return (
+    <section className="py-20 bg-gradient-hero text-white relative overflow-hidden">
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0" style={{
-        backgroundImage: `radial-gradient(circle at 2px 2px, rgba(255,255,255,0.3) 1px, transparent 0)`,
-        backgroundSize: '40px 40px'
-      }}></div>
+          backgroundImage: `radial-gradient(circle at 2px 2px, rgba(255,255,255,0.3) 1px, transparent 0)`,
+          backgroundSize: '40px 40px'
+        }}></div>
       </div>
       
       <div className="container mx-auto px-6 relative z-10">
@@ -16,7 +18,9 @@ const ContactSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Ready to Get Started?
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">Email info@kalcura.com to schedule a review of your business and learn how we can help your business achieve its goals.</p>
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+            Email <a href="mailto:info@kalcura.com" className="text-blue-400 hover:text-blue-300 transition-colors duration-300">info@kalcura.com</a> to schedule a review of your business and learn how we can help your business achieve its goals.
+          </p>
         </div>
         
         <div className="max-w-4xl mx-auto">
@@ -42,14 +46,12 @@ const ContactSection = () => {
                   <span>Medellín, Colombia</span>
                 </div>
               </div>
-              
-              
-              
-              
             </CardContent>
           </Card>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default ContactSection;

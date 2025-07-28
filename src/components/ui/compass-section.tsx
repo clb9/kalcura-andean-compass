@@ -1,16 +1,20 @@
 import { Card, CardContent } from "@/components/ui/card";
 const values = [{
   title: "Your Corporate Compass",
-  description: "We leverage our global network and applied experiences to help you navigate the most demanding business environments",
+  description: "Our global perspective and applied experiences help you navigate the most demanding business environments.",
   icon: "🧭"
 }, {
   title: "Objective Advice",
-  description: "Unbiased, bespoke advice with the utmost integrity",
+  description: "Unbiased, bespoke advice with the utmost integrity.",
   icon: "⚖️"
 }, {
   title: "Long-Term Focus",
-  description: "Our number one priority is to build a lasting relationship marked by continued business success",
+  description: "Our number one priority is to build a lasting relationship marked by continued business success.",
   icon: "📈"
+}, {
+  title: "Global Network",
+  description: "We leverage our global network of trusted contacts, investors, and experts in North America, South America and Europe.",
+  icon: "🌍"
 }];
 const CompassSection = () => {
   return <section className="py-20 bg-gradient-hero text-white relative overflow-hidden">
