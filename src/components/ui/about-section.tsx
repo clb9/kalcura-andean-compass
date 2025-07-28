@@ -25,7 +25,7 @@ const AboutSection = () => {
                 <h3 className="text-3xl font-bold text-primary mb-2">
                   Christian Breda
                 </h3>
-                <Badge className="bg-accent text-white px-4 py-2 text-lg">Founder & Managing Partner</Badge>
+                <Badge className="bg-accent text-white px-4 py-2 text-lg">Founder</Badge>
                 <p className="text-muted-foreground mt-4 text-lg">Based in Boston</p>
               </div>
             </div>
@@ -45,8 +45,8 @@ const AboutSection = () => {
               
               <div className="flex flex-wrap gap-3 justify-center mt-8">
                 <Badge variant="outline" className="px-4 py-2">Cross-Border Finance</Badge>
-                <Badge variant="outline" className="px-4 py-2">Business Development</Badge>
-                <Badge variant="outline" className="px-4 py-2">Portfolio Management</Badge>
+                <Badge variant="outline" className="px-4 py-2">Commercial Strategy</Badge>
+                
                 <Badge variant="outline" className="px-4 py-2">Capital Raising</Badge>
                 <Badge variant="outline" className="px-4 py-2">Bilingual (EN/ES)</Badge>
               </div>
