@@ -2,10 +2,10 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 const services = [{
   title: "Business Review",
-  items: ["Strategic planning", "Advisory boards", "Value Sharing & Compensation Plans", "FP&A", "Budgeting", "Performance Measuring & Reporting", "Data Analysis"]
+  items: ["Strategic planning", "Advisory boards", "Value sharing & compensation plans", "FP&A", "Budgeting", "Performance measuring & reporting", "Data analysis"]
 }, {
   title: "Business Valuation",
-  items: ["Valuation Analysis", "Marketability Analysis", "Transaction Preparedness"]
+  items: ["Valuation analysis", "Marketability analysis", "Transaction preparedness"]
 }, {
   title: "Corporate Governance",
   items: ["Governance frameworks", "Board effectiveness", "Risk management"]
@@ -14,10 +14,10 @@ const services = [{
   items: ["Leadership transition", "Family business succession", "Exit strategies"]
 }, {
   title: "M&A Opportunities",
-  items: ["Due Diligence", "Opportunity Analysis"]
+  items: ["Due diligence", "Opportunity analysis"]
 }, {
   title: "Capital Structure",
-  items: ["Capital Raising", "Optimize your balance sheet according to your business' needs"]
+  items: ["Capital raising", "Optimize your balance sheet according to your business' needs"]
 }];
 const ServicesSection = () => {
   return <section className="py-20 bg-background">

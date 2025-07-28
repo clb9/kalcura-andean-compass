@@ -2,13 +2,13 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 
 const countries = [
-  "United States",
-  "Argentina", 
-  "Brazil",
-  "Chile",
-  "Colombia",
-  "Mexico",
-  "Peru"
+  { name: "United States", flag: "🇺🇸" },
+  { name: "Argentina", flag: "🇦🇷" }, 
+  { name: "Brazil", flag: "🇧🇷" },
+  { name: "Chile", flag: "🇨🇱" },
+  { name: "Colombia", flag: "🇨🇴" },
+  { name: "Mexico", flag: "🇲🇽" },
+  { name: "Peru", flag: "🇵🇪" }
 ];
 
 const MarketCoverage = () => {
@@ -26,7 +26,7 @@ const MarketCoverage = () => {
         
         <Card className="max-w-4xl mx-auto bg-gradient-card shadow-elegant border-0">
           <CardContent className="p-12">
-            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-7 gap-4">
               {countries.map((country, index) => (
                 <div 
                   key={index}
@@ -35,9 +35,10 @@ const MarketCoverage = () => {
                 >
                   <Badge 
                     variant="outline"
-                    className="px-4 py-3 text-sm font-medium border-accent/20 hover:bg-accent hover:text-white transition-all duration-300 hover:scale-110 cursor-default w-full"
+                    className="px-4 py-3 text-sm font-medium border-accent/20 hover:bg-accent hover:text-white transition-all duration-300 hover:scale-110 cursor-default w-full flex items-center justify-center gap-2"
                   >
-                    {country}
+                    <span className="text-lg">{country.flag}</span>
+                    {country.name}
                   </Badge>
                 </div>
               ))}

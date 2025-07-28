@@ -1,19 +1,15 @@
 import { Card, CardContent } from "@/components/ui/card";
 const values = [{
   title: "Your Corporate Compass",
-  description: "We leverage our global perspective to help you navigate the most demanding business environments",
+  description: "We leverage our global network and applied experiences to help you navigate the most demanding business environments",
   icon: "🧭"
 }, {
-  title: "Holistic Approach",
-  description: "Our comprehensive methodology guides companies on matters from corporate strategy to capital raising",
-  icon: "🔄"
-}, {
   title: "Objective Advice",
-  description: "Highly tailored, highly specialized advice with the utmost integrity for your most consequential decisions",
+  description: "Unbiased, bespoke advice with the utmost integrity",
   icon: "⚖️"
 }, {
-  title: "Long-term Focus",
-  description: "We prioritize sustainable solutions and building lasting relationships with business owners and managers",
+  title: "Long-Term Focus",
+  description: "Our number one priority is to build a lasting relationship marked by continued business success",
   icon: "📈"
 }];
 const CompassSection = () => {

@@ -28,17 +28,17 @@ const ContactSection = () => {
                 <a href="mailto:info@kalcuramanagement.com" className="text-accent text-xl hover:text-white transition-colors duration-300 font-medium">info@kalcura.com</a>
               </div>
               
-              <div className="space-y-6 mb-8">
-                <div className="flex items-center justify-center gap-4 text-gray-300">
-                  <MapPin className="w-6 h-6 text-accent" />
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 max-w-2xl mx-auto">
+                <div className="flex items-center justify-center gap-3 text-gray-300">
+                  <MapPin className="w-5 h-5 text-accent" />
                   <span>Boston, United States</span>
                 </div>
-                <div className="flex items-center justify-center gap-4 text-gray-300">
-                  <MapPin className="w-6 h-6 text-accent" />
+                <div className="flex items-center justify-center gap-3 text-gray-300">
+                  <MapPin className="w-5 h-5 text-accent" />
                   <span>Santiago, Chile</span>
                 </div>
-                <div className="flex items-center justify-center gap-4 text-gray-300">
-                  <MapPin className="w-6 h-6 text-accent" />
+                <div className="flex items-center justify-center gap-3 text-gray-300">
+                  <MapPin className="w-5 h-5 text-accent" />
                   <span>Medellín, Colombia</span>
                 </div>
               </div>
