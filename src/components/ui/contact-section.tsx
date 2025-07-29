@@ -19,7 +19,7 @@ const ContactSection = () => {
             Ready to Get Started?
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Email <a href="mailto:info@kalcura.com" className="text-blue-400 hover:text-blue-300 transition-colors duration-300">info@kalcura.com</a> to schedule a review of your business and learn how we can help your business achieve its goals.
+            Email <a href="mailto:cbreda@kalcura.com" className="text-blue-400 hover:text-blue-300 transition-colors duration-300">cbreda@kalcura.com</a> to schedule a review of your business and learn how we can help your business achieve its goals.
           </p>
         </div>
         
@@ -29,7 +29,7 @@ const ContactSection = () => {
               <div className="mb-8">
                 <Mail className="w-16 h-16 text-accent mx-auto mb-4" />
                 <h3 className="text-2xl font-bold mb-4 text-slate-50">Contact Us</h3>
-                <a href="mailto:info@kalcuramanagement.com" className="text-accent text-xl hover:text-white transition-colors duration-300 font-medium">info@kalcura.com</a>
+                <a href="mailto:cbreda@kalcura.com" className="text-accent text-xl hover:text-white transition-colors duration-300 font-medium">cbreda@kalcura.com</a>
               </div>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 max-w-2xl mx-auto">
