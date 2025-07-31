@@ -5,7 +5,7 @@ const services = [{
   items: ["Strategic planning", "Advisory boards", "Value sharing & compensation plans", "FP&A", "Budgeting", "Performance measuring & reporting", "Data analysis"]
 }, {
   title: "Business Valuation",
-  items: ["Valuation analysis", "Marketability analysis", "Transaction preparedness"]
+  items: ["Valuation analysis", "Marketability analysis"]
 }, {
   title: "Corporate Governance",
   items: ["Governance frameworks", "Board effectiveness", "Risk management"]
@@ -13,11 +13,14 @@ const services = [{
   title: "Succession Planning",
   items: ["Leadership transition", "Family business succession", "Exit strategies"]
 }, {
-  title: "M&A Opportunities",
-  items: ["Due diligence", "Opportunity analysis"]
+  title: "Mergers & Acquisitions",
+  items: ["Due diligence", "Opportunity analysis", "Transaction preparedness", "International expansion"]
 }, {
   title: "Capital Structure",
   items: ["Capital raising", "Optimize your balance sheet according to your business' needs", "Fintech funding programs", "Cross-border structured finance"]
+}, {
+  title: "Investment Fund Services",
+  items: ["Portfolio analysis", "Cross-border finance and deal structuring", "Deal Sourcing", "Target due diligence", "Local intelligence"]
 }];
 const ServicesSection = () => {
   return <section className="py-20 bg-background">
